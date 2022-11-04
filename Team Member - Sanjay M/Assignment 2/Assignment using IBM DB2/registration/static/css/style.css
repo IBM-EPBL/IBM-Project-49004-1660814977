@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #cacaca;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    height: 100vh;
+}
+
+nav{
+    background-color: #212121;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: fit-content;
+}
+
+nav > div{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.nav-list > li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.nav-list > li > a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav-list > li > a:hover{
+    color: blue;
+}
+
+nav > div > h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-main-div{
+    width: 50%;
+    margin: 70px auto;
+}
+
+.form-div{
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.form-div > h3{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-div > form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.inputs{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 15px;
+    text-indent: 10px;
+}
+
+label{
+    font-size: 14px;
+    color: grey;
+}
+
+.submit{
+    width: 90%;
+    font-size: 15px;
+    height: 40px;
+    background-color: #00FF00;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+
+.submit:hover{
+    background-color: #212121;
+    color: white;
+}
+
+form > div{
+    margin-top: 15px;
+}
+
+form > div > a{
+    font-size: 14px;
+    color: blue;
+}
+
+.flash-div{
+    position: absolute;
+    width: 500px;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 70px;
+    background-color: #f67c86;
+    border-radius: 8px;
+}
+
+.flash-div > h4{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.success{
+    background-color: green;
+}
+
+.table-div{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.table-div > h2{
+    text-align: center;
+    margin: 15px 0;
+    padding-top: 10px;
+}
+
+table{
+    width: 70%;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+
+th, tr{
+    height: 40px;
+    text-indent: 8px;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #cacaca;
+}
