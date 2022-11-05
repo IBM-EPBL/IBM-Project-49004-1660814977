@@ -1,0 +1,42 @@
+/* For Desktops */
+body{
+    background-color: #212121;
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+ul li{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-type: number;
+}
+
+/* For Mobiles */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: white;
+        color: #212121;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    ul li{
+        font-size: 14px;
+    }
+}
